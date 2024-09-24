@@ -1,0 +1,109 @@
+body { 
+    background: linear-gradient(to right, hsl(327, 60%, 83%), #e27bd0); 
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    text-align: center;
+    box-shadow: rgb(225, 197, 197);
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    }
+
+    .card-white {
+        background-color: white;
+        padding: 40px;
+        box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+        border-radius: 60px;
+        margin: 30px 0px;
+        text-align: center;
+
+    }
+
+.img-circle {
+    border: 5px solid #f6cbe9;  
+    transition: transform 0.3s ease-in-out;  
+}
+
+
+.img-circle:hover {
+    transform: scale(1.1); 
+}
+
+div{
+    background-color: rgb(237, 195, 195);
+    border-radius: 80%;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.8) ;
+
+
+}
+
+.talk-card {
+    background-color: #f9f9f9; 
+    border: 2px solid #000000; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+}
+
+.talk-card h2 {
+    color: #e67ab9; 
+}
+
+.talk-card p {
+    color: #000000; 
+    font-size: 1.2rem; 
+}
+
+.btn-blue {
+    display: inline-block;
+    background: linear-gradient(45deg, #fccbee, #f0a7df); 
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px auto;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.btn-blue:hover {
+    background: linear-gradient(45deg, #7e1983, #9b59b6); 
+    color: white;
+}
+
+
+
+h1 {
+    font-size: 3rem; 
+    background: linear-gradient(45deg, #ebabca,#db4eb7);
+    -webkit-background-clip: text; 
+    color: transparent; 
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Légère ombre */
+    font-weight: 900;
+}
+
+
+h2.gradient-title {
+    background: linear-gradient(45deg, #e39ece, #5b0743);
+    -webkit-background-clip: text;
+    color: transparent; 
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+.list-inline { 
+    font-size: 30px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
